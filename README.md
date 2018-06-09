@@ -27,13 +27,13 @@ or do it manually:
 * Place "Dell5440_bios_update.bat" in the start folder. Can be accessed by opening windows explorer and putting this in the directory: %userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 
 Changelog:
-1.00: First release
-1.11: Updated Standard script to 1.02b
-1.12: Updated install.bat with bcdedit /timeout 0, so we are on Standard Script 1.03b
-1.13: Started using variables and added check if BIOS is already greater than update.
+* 1.00: First release
+* 1.11: Updated Standard script to 1.02b
+* 1.12: Updated install.bat with bcdedit /timeout 0, so we are on Standard Script 1.03b
+* 1.13: Started using variables and added check if BIOS is already greater than update.
 	  Updated activation script to current (1.07)
-1.13_2: Fixed the deletion of BIOS after update.
-1.14: Fixed reboot problem. Changed interaction with BiosUpdate. Added logic to run Activation if Bios is up to date. Cleaned up some small errors. 
+* 1.13_2: Fixed the deletion of BIOS after update.
+* 1.14: Fixed reboot problem. Changed interaction with BiosUpdate. Added logic to run Activation if Bios is up to date. Cleaned up some small errors. 
 
 For people looking to update the Bios update:
 http://www.dell.com/support/home/dk/da/dkbsdt1/product-support/servicetag/6yrzg12/drivers
